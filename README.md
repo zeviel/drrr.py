@@ -5,6 +5,6 @@ Web-API for [drrr.com](https://drrr.com) durarara dollars chatroom
 ## Example
 ```python3
 import drrr
-drrr_client = drrr.DrrrClient()
-drrr_client.login(nickname="", icon="")
+drrr = drrr.Drrr()
+drrr.login(nickname="", icon="")
 ```
